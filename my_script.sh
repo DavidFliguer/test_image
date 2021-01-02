@@ -10,6 +10,7 @@ case $TEST_IMAGE_MODE in
     ;;
   3)
     touch $FULL_PATH_TO_FILE_TO_CREATE
+    ;;
   *)
     echo "Default mode is to do nothing :-) " 
     ;;
